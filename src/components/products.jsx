@@ -4,6 +4,8 @@ import { PhoneIcon, ArrowSmRightIcon } from "@heroicons/react/outline";
 import { ChipIcon,SupportIcon} from "@heroicons/react/solid";
 
 import bgimg from '../assests/s_aircos.png'
+import myImg from '../assests/20230721_092709.jpg'
+import img from '../assests/20230907_145725.jpg'
 
 const Products = () => {
     return(
@@ -27,6 +29,10 @@ const Products = () => {
             <PhoneIcon className="w-16 p-4 bg-indigo-600 text-white rounded-lg mt-[-4rem]" />
             <h3 className="font-bold my-6 text-2xl">Sales</h3>
             <p className="text-xl text-blue-500"> These are our top selling products.</p>
+          <div className="flex">
+          <img  className="w-24" src={myImg} alt="" />
+          <img  className="w-20" src={img} alt="" />
+          </div>
             </div> 
            <div className="py-4 pl-8">
             <p className="flex items-center text-stone-800">Contact Us <ArrowSmRightIcon className="w-5 ml-2"/></p>
